@@ -1,2 +1,2 @@
 # CS50P
-Harard CS50's Introduction to Program self studied.
+I am an independent high school student self-studying Harvard's CS50P to build programming foundation in Python plus engineering and physics overall.
