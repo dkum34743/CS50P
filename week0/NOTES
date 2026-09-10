@@ -2,6 +2,11 @@
 
 VS Code - text editor + used to visually browse files and run text-based commands in a terminal
 
+You can run Python 'interactively'
+In a fresh terminal, just run 'python'
+It gives '>>>' after, known as interpreter
+Anytime you type code in interpreter, it runs it immediately
+
 **Functions**
 
 Verbs or actions that the computer or computer language will already know how to perform
@@ -21,3 +26,154 @@ A container for a value within a program
 Equal sign (=) - assigns what is on the right to what is on the left
 Allows the user to define variables without changing the code, able to be used later
 You can use a comma to pass multiple arguments
+
+**Comments**
+
+A way for programmers to track what they are doing in their programs and even inform others about their intentions for a block of code
+Essentially, *notes*
+To insert comments: use '#' followed by comment itself
+
+**Strings and Parameters**
+
+A string (*str* in Python) is any sequence of text
+
+When you pass multiple arguments to print, it automatically inserts a space for you
+
+e.g.
+    name = input("What's your name?")
+    print("hello,", name)
+
+Putting an 'f' right before the string tells Python that this is a special string
+Strings have the built in ability in Python to actually do things to the string itself
+
+e.g.
+    name = input("What's your name?")
+    print(f"hello,{name}")
+    name = name.strip ##removes white space from str
+
+Variable assignments can be changes by using the '=' again
+
+e.g.
+    name = name.capitalize() ##capitalizes user input
+    name = name.title() ##treats input as a title
+
+Functions can be chained
+
+e.g.
+    name = name.strip().title()
+
+Works right to left, strips white space and THEN treats input as title and capitilizes first letter of ever word
+
+first, last = name.split() ##auto first term, auto second term
+
+*Integer(Int)*
+
+In Python, integers are referred to as *int*
+
+e.g
+    x = 1
+    y = 2
+
+    z = x+y
+
+    print(z)
+              ##output: 3
+
+You can also make it interactive
+
+e.g.
+    x = input("what is x?")
+    y = input("what is y?")
+
+    z = x+y
+
+    print(z)
+
+However, this doesn't treat the input as numbers, only strings
+Int is both a type of data in Python as well as a function
+
+e.g.
+    ##Change line 88 to treat 'x' and 'y' as integers
+    z = int(x) + int(y)
+
+This converts and treats x and y as numbers/integers
+
+You can nest functions using parenthesis
+
+e.g.
+    x = int(input("what is x?"))
+    y = int(input("what is y?"))
+
+Python will look at the innermost paranthesis firstm then work its way out
+
+e.g.
+    print(x+y)
+    #outputs the numbers added together
+
+Write code in a way that is easy to read and understand in order to debug later if necessary
+
+**Floats**
+
+A real number that contains a decimal in it
+
+e.g.
+    x = float(input("x"))
+    y = float(input("y"))
+
+    print(x + y)
+
+This allows your code to support decimals and integers rather than only integers
+
+*Round()* is a built-in function that allows the user to round to the nearest integer
+
+e.g.
+    round(72.8764[,2]) #rounded to the SECOND number after decimal
+
+    #output: 72.88
+
+    z = round(1.8294)
+    print(f{z:,}") ##adds a comma
+
+**Def**
+
+Creates a specific function with specific name
+
+e.g.
+    def hello(to):
+        print("hello,", to)
+
+    name = input("what's your name?")
+    hello(name)
+
+e.g.
+    def hello(to=world) ##'to' is assigned to default value of 'world'
+    print("hello", to)
+
+    hello()
+    name = input("what's your name?")
+    hello(name)
+
+Why do people define their own functions? - to avoid repeating themselves over and over again
+
+define functions BEFORE using them
+
+scope - a variable only existing in the context which you defined it
+
+**Returning Values**
+
+def(main):
+    x = int(input("what's x?"))
+    print("x squared is", square(x)
+
+def square(n):   ##although square(n) is defined after being mentioned in def(main), it still works because main() is run AFTER everything is defined
+    return n * n
+
+main()
+
+
+
+
+
+
+
+
