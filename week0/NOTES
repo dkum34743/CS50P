@@ -1,3 +1,23 @@
 **Creating code with Python**
 
-VS Code - 
+VS Code - text editor + used to visually browse files and run text-based commands in a terminal
+
+**Functions**
+
+Verbs or actions that the computer or computer language will already know how to perform
+e.g. *print* function takes arguments, and already knows it has to print whatever follows
+
+**Bugs**
+
+Natural part of coding
+Mistakes/problems to solve
+Error messages - can often inform you of your mistakes and provide clues on how to fix them; however, the interpreter may not always be so helpful
+
+*input* function takes a prompt as an argument
+
+**Variables**
+
+A container for a value within a program
+Equal sign (=) - assigns what is on the right to what is on the left
+Allows the user to define variables without changing the code, able to be used later
+You can use a comma to pass multiple arguments
