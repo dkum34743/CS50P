@@ -6,4 +6,5 @@ def convert(emoji):
     if ":(" in emoji:
         emoji=emoji.replace(":(", "🙁")
     print(emoji)
+
 convert(emoji)
