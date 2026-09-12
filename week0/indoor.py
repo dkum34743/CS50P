@@ -1,3 +1,3 @@
-outdoor=input()
-indoor=outdoor.lower()
+outdoor = input()
+indoor = outdoor.lower()
 print(indoor)
