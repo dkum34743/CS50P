@@ -1,3 +1,3 @@
-reg=input()
-playback=reg.replace(" ", "...")
+reg = input()
+playback = reg.replace(" ", "...")
 print(playback)
