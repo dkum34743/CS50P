@@ -10,5 +10,4 @@ def main():
 
     print(snake)
 
-if __name__ == "__main__":
     main()
