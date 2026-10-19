@@ -11,7 +11,7 @@ def main():
 
             percentage = round((x / y) * 100)
             break
-        except (ValueError, ZeroDivisionError):
+        except (ValueError, ZeroDivisionError):             ## creates an exception that says except those two errors, it can pass
             pass
 
     if percentage <= 1:
