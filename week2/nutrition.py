@@ -27,5 +27,4 @@ def main():
         print(f"Calories: {fruits[user_fruit]}")
 
 
-if __name__ == "__main__":
-    main()
+main()
